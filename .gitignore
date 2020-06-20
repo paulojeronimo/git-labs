@@ -1,0 +1,4 @@
+/*.html
+/lab*
+!/lab*.sh
+!/lab*.adoc

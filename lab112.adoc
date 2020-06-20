@@ -1,0 +1,7 @@
+= Lab 112
+
+== References
+
+. https://unix.stackexchange.com/questions/101440/how-to-remove-blank-lines-from-a-file-including-tab-and-spaces[How to remove blank lines from a file (including tab and spaces)?^]
+. https://stackoverflow.com/questions/25356810/git-how-to-squash-all-commits-on-branch[Git: How to squash all commits on branch^]
+. https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git[Squash my last X commits together using Git^]
