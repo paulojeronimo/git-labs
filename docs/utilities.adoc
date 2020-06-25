@@ -1,4 +1,11 @@
 = Utilities
+:icons: font
+:nofooter:
+
+:basedir: ..
+include::../asciidoc-una/uris.adoc[]
+include::../asciidoc-una/attributes.adoc[]
+include::_includes/attributes.adoc[]
 
 [[base58]]
 . {Base58} encode/decode:

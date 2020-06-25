@@ -1,0 +1,7 @@
+= TODO
+
+* Create a lab (and a blog post) about git commit messages
+** https://app.bitly.com/B95tasY7yRq/bitlinks/2VaY4Z0?filterActive=true&tags=git-commit-messages
+
+* Create a lab (and a blog post) about git branch graphs
+** https://app.bitly.com/B95tasY7yRq/bitlinks/3drMIWA?filterActive=true&tags=git-branch-graphs

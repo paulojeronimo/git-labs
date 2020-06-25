@@ -1,4 +1,6 @@
 = Lab 112
+:icons: font
+:nofooter:
 
 == References
 

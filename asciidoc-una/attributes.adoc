@@ -5,3 +5,4 @@
 :ExplainShell: {uri-explainshell}[ExplainShell^]
 :sed: {uri-sed}[sed^]
 :AWK: {uri-awk}[AWK^]
+:Base58: {uri-base58}[Base58^]
