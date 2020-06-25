@@ -2,5 +2,5 @@
 /lab???
 !/lab???.sh
 /docs/*.html
-/httpd.log
+/httpd.*
 /tmp
