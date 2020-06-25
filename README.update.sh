@@ -63,6 +63,16 @@ do
       ;;
     --html)
       asciidoctor README.adoc $adoc_args
+      cat > docs/index.adoc <<EOF
+= docs
+:nofooter:
+
+$(cd docs; for f in $(find . -maxdepth 1 -name '*.adoc' ! -name index.adoc)
+  do
+    html=${f%.adoc}.html
+    echo "* link:$html[$html]"
+  done)
+EOF
       for f in docs/*.adoc; do asciidoctor $f; done
       ;;
     --serve)

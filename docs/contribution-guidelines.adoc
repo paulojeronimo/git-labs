@@ -23,5 +23,11 @@ include::{basedir}/lab111.sh[lines=2]
 . Commit the `lab???.sh` script inside your fork.
 . Update this `README.adoc` by invoking the link:{basedir}/README.update.sh[] script.
 .. If you have {uri-asciidoctor}[asciidoctor^] installed, use the argument `--html` to this script to generate a `index.html` file.
-In this case, you can also use the argument `--serve` to start a `ruby` httpd locally and access http://localhost:8000 to see its content.
+In this case, you can also use the argument `--serve` to start a `ruby` httpd locally and access http://localhost:8000 to see its content:
++
+----
+$ ./README.update.sh --html --serve
+----
+NOTE: The ruby `httpd` will be running in background.
++
 . {uri-github-creating-a-pull-request-from-a-fork}[Make a pull request^].
