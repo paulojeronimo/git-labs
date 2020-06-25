@@ -6,3 +6,7 @@
 :sed: {uri-sed}[sed^]
 :AWK: {uri-awk}[AWK^]
 :Base58: {uri-base58}[Base58^]
+:open-source: {uri-open-source}[open source^]
+:OpenSource: {open-source}
+:MITLicense: {uri-mit-license}[MIT License^]
+:rsync: {uri-rsync}[rsync^]

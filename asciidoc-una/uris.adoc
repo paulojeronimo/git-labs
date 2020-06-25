@@ -14,3 +14,6 @@
 :uri-explainshell-github: https://github.com/idank/explainshell
 :uri-sed: https://en.wikipedia.org/wiki/Sed
 :uri-awk: https://en.wikipedia.org/wiki/AWK
+:uri-open-source: https://opensource.org/osd
+:uri-mit-license: https://opensource.org/licenses/MIT
+:uri-rsync: https://en.wikipedia.org/wiki/Rsync
