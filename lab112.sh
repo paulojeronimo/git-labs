@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Purpose: A variant of link:lab111.sh[] producing a more detailed log (link:lab112{outfilesuffix}[read more]).
+# Purpose: A variant of link:lab111.sh[] producing a more detailed log (link:docs/lab112{outfilesuffix}[read more]).
 set -xeou pipefail
 cd "`dirname "$0"`"
 rm -rf "${0%.*sh}" && mkdir -p "$_" && cd "$_"

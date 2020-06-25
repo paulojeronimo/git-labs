@@ -1,4 +1,5 @@
 /*.html
-/lab*
-!/lab*.sh
-!/lab*.adoc
+/lab???
+!/lab???.sh
+/docs/*.html
+/httpd.log

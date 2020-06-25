@@ -1,0 +1,7 @@
+:Git: {uri-git}[Git^]
+:Bash: {uri-bash}[Bash^]
+:GitLabPages: {uri-gitlab-pages}[GitLab Pages^]
+:GitHubPages: {uri-github-pages}[GitHub Pages^]
+:ExplainShell: {uri-explainshell}[ExplainShell^]
+:sed: {uri-sed}[sed^]
+:AWK: {uri-awk}[AWK^]

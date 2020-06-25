@@ -1,0 +1,8 @@
+= Utilities
+
+[[base58]]
+. {Base58} encode/decode:
+.. {uri-base58}
+.. https://incoherency.co.uk/base58/
+. {ExplainShell}. Sample:
+.. https://explainshell.com/explain?cmd=git+log+--all+-M+-C+--numstat+--date%3Dshort+--pretty%3Dformat:%27--%25h--%25ad--%25an%27+--no-renames

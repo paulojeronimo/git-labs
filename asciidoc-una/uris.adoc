@@ -1,0 +1,16 @@
+:uri-paulojeronimo-git-labs: https://github.com/paulojeronimo/git-labs
+:uri-paulojeronimo-git-labs-mirror: https://gitlab.com/paulojeronimo/git-labs
+:uri-gitlab-pages: https://pages.gitlab.com
+:uri-gitlab-fork-a-repo: https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork
+:uri-github-pages: https://pages.github.com
+:uri-github-creating-a-pull-request-from-a-fork: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
+:uri-github-fork-a-repo: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
+:uri-asciidoctor: https://asciidoctor.org
+:uri-what-is-asciidoc: https://asciidoctor.org/docs/what-is-asciidoc/
+:uri-base58: https://learnmeabitcoin.com/guide/base58
+:uri-git: https://git-scm.com/
+:uri-bash: https://www.gnu.org/software/bash/
+:uri-explainshell: https://www.explainshell.com/
+:uri-explainshell-github: https://github.com/idank/explainshell
+:uri-sed: https://en.wikipedia.org/wiki/Sed
+:uri-awk: https://en.wikipedia.org/wiki/AWK
