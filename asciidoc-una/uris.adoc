@@ -17,3 +17,5 @@
 :uri-open-source: https://opensource.org/osd
 :uri-mit-license: https://opensource.org/licenses/MIT
 :uri-rsync: https://en.wikipedia.org/wiki/Rsync
+:uri-clitest: https://github.com/aureliojargas/clitest
+:uri-bats: https://github.com/sstephenson/bats

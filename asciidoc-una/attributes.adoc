@@ -10,3 +10,5 @@
 :OpenSource: {open-source}
 :MITLicense: {uri-mit-license}[MIT License^]
 :rsync: {uri-rsync}[rsync^]
+:clitest: {uri-clitest}[clitest^]
+:bats: {uri-bats}[bats^]

@@ -7,9 +7,13 @@ include::../asciidoc-una/uris.adoc[]
 include::../asciidoc-una/attributes.adoc[]
 include::_includes/attributes.adoc[]
 
-[[base58]]
-. {Base58} encode/decode:
+These are some utilities that you may use or see some of then in use in this project:
+
+. [[base58]] {Base58} encode/decode:
 .. {uri-base58}
 .. https://incoherency.co.uk/base58/
 . {ExplainShell}. Sample:
 .. https://explainshell.com/explain?cmd=git+log+--all+-M+-C+--numstat+--date%3Dshort+--pretty%3Dformat:%27--%25h--%25ad--%25an%27+--no-renames
+. {clitest}.
+. {bats}.
+.. https://github.com/sstephenson/bats/wiki/Projects-Using-Bats
