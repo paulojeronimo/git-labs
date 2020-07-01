@@ -28,7 +28,7 @@ In this case, you can also use the argument `--serve` to start a `ruby` httpd lo
 ----
 $ ./build.sh --html --serve
 ----
-NOTE: The ruby `httpd` server will be running in background.
+NOTE: The ruby `httpd` server will be running in background. +
 To terminate it, type: `kill $(cat httpd.pid)`.
 +
 . {uri-github-creating-a-pull-request-from-a-fork}[Make a pull request^].

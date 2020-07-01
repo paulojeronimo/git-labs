@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# Purpose: Generates the README.adoc and do some other things.
+# References:
+#   Ref1: https://stackoverflow.com/a/46083970[Insert newline (\n) using sed^]
+#   Ref2: https://unix.stackexchange.com/a/17405[Print lines between (and excluding) two patterns^]
+#
 set -eou pipefail
 cd "$(dirname "$0")"
 
@@ -48,7 +53,10 @@ Labs:
 $(for f in `ls lab???.sh | sort -r`
   do
     d=$(git log --diff-filter=A --follow --format=%aI -1 -- $f)
-    sed -n '2p' $f | sed "s/^# Purpose: \(.*\)/. link:$f[] (created in $d): \1/"
+    # Ref1: used in the next 3 lines
+    sed -n '2p' $f | sed -E "s/^# Purpose: (.*)/\
+. link:$f[]: \1\\
+.. Created in $d/"
   done)
 EOF
 
@@ -81,6 +89,14 @@ EOF
     --serve)
       ruby -run -e httpd . -p 8000 &> httpd.log &
       echo $! > httpd.pid
+      ;;
+    --references)
+      # TODO:
+      #   - List all references used by all the scripts inside this project
+
+      # Ref2: used in the next line
+      sed '1,/^# References:$/d;/^#$/,$d' build.sh
+      exit 0
       ;;
     *)
       echo "Invalid argument: \"${1:-}\""
