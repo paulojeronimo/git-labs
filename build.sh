@@ -43,6 +43,11 @@ do
       run-lab "${@:-}"
       exit 0
       ;;
+    --clean)
+      git clean -fXd
+      find . -maxdepth 1 -type d -name 'lab???' | xargs rm -rf
+      exit 0
+      ;;
     *)
       echo "Invalid argument: \"${1:-}\""
       exit 1
