@@ -37,11 +37,18 @@ You can note, for example, that the clause `includes` in Asciidoc does not work 
 endif::[]
 endif::[]
 
-To run a lab, type: `./build.sh --run [lab]number[.sh]`.
+To run a lab, type:
 
-NOTE: In the command above, you can use the entire lab name or only its number
-ifndef::env-github[]
+  ./build.sh --run [lab]number[.sh]
+
+[NOTE]
+====
+. In the command above, you can use the entire lab name or only its number
 (<<docs/utilities#base58,Base58>> format).
+. If you append the `-x` parameter you will see a detailed execution.
+====
+
+ifndef::env-github[]
 endif::[]
 ifdef::env-github[]
 (Base58 format).

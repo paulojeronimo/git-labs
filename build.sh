@@ -29,6 +29,7 @@ do
     --serve)
       ruby -run -e httpd . -p 8000 &> httpd.log &
       echo $! > httpd.pid
+      exit 0
       ;;
     --references)
       # TODO:
@@ -40,6 +41,7 @@ do
     --run)
       shift || :
       run-lab "${@:-}"
+      exit 0
       ;;
     *)
       echo "Invalid argument: \"${1:-}\""
