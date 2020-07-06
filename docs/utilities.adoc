@@ -5,7 +5,6 @@
 :basedir: ..
 include::../asciidoc-una/uris.adoc[]
 include::../asciidoc-una/attributes.adoc[]
-include::_includes/attributes.adoc[]
 
 These are some utilities that you may use or see some of then in use in this project:
 

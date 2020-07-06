@@ -48,9 +48,3 @@ ifdef::env-github[]
 endif::[]
 
 Available labs:
-
-[%reversed]
-. link:lab112.sh[]: A variant of link:lab111.sh[] producing a more detailed log (link:docs/lab112{outfilesuffix}[read more]).
-.. Created in 2020-06-20T12:37:13-03:00
-. link:lab111.sh[]: Testing `git merge --squash`.
-.. Created in 2020-06-20T12:37:13-03:00

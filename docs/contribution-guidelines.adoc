@@ -6,10 +6,9 @@
 :basedir: ..
 include::../asciidoc-una/uris.adoc[]
 include::../asciidoc-una/attributes.adoc[]
-include::_includes/attributes.adoc[]
 
 . Fork the repo {uri-paulojeronimo-git-labs}. {uri-github-fork-a-repo}[Read about forking^], if necessary.
-. Name your lab as "lab<3 digits in {Base58_}>".sh.
+. Name your lab as "lab<3 digits in <<utilities#base58,Base58>>".sh.
 .. The first digit will identify you (the contributor).
 .. Increment the last two digits as you add more labs.
 . Inside your script, describe the purpose of it by writing its second line using the {uri-what-is-asciidoc}[AsciiDoc syntax^].
@@ -20,9 +19,10 @@ Please, write a description in a resumed way.
 include::{basedir}/lab111.sh[lines=2]
 ----
 +
+.. Observe other <<lab-validation-rules#,lab validation rules>> in order to have your lab accepted into this project.
 . Commit the `lab???.sh` script inside your fork.
-. Generate the link:{basedir}/README.adoc[] file by running the link:{basedir}/build.sh[] script.
-.. If you have {uri-asciidoctor}[asciidoctor^] installed, use the argument `--html` to this script to generate a `index.html` file.
+. Generate the link:{basedir}/README.adoc[] file by typing: `./build.sh --html`.
+.. If you have {uri-asciidoctor}[asciidoctor^] installed, this argument `--html` will also generate a `index.html` file.
 In this case, you can also use the argument `--serve` to start a `ruby` httpd locally and access http://localhost:8000 to see its content:
 +
 ----
