@@ -11,7 +11,6 @@ source ./functions/generate-docs.sh
 source ./functions/generate-index-for.sh
 source ./functions/run-lab.sh
 
-generate_adoc_includes=false
 adoc_args="-o index.html"
 while [ "${1:-}" ]
 do
@@ -24,11 +23,8 @@ do
       # Simulates the GitLab generated README.adoc
       adoc_args="-a env-gitlab $adoc_args"
       ;;
-    --generate-adoc-includes)
-      generate_adoc_includes=true
-      ;;
     --html)
-      generate-docs $generate_adoc_includes $adoc_args
+      generate-docs $adoc_args
       ;;
     --serve)
       ruby -run -e httpd . -p 8000 &> httpd.log &
