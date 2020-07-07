@@ -54,10 +54,4 @@ To run a lab, type:
 . If you append the `-x` parameter you will see a detailed execution.
 ====
 
-ifndef::env-github[]
-endif::[]
-ifdef::env-github[]
-(Base58 format).
-endif::[]
-
 Available labs:
