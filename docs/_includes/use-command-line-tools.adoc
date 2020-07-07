@@ -1,0 +1,7 @@
+= Use command-line tools
+
+* {Git} of course!
+* {GitHub} or {GitLab}.
+* {sed} or {awk}.
+* {jq} or {yq}.
+* {curl} or {wget}.

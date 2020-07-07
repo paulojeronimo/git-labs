@@ -15,13 +15,11 @@ source "$BASE_DIR"/test-lib/test.sh
 header_pattern='2,/^#$/{/^#$/!p;}'
 header_lines=3
 
-test: "Header should have at least $header_lines line(s)"
-cat <<EOF | clitest -
+test-block: "Header should have at least $header_lines line(s)" <<EOF
 $ (( $(sed -n "$header_pattern" $script_in_test | wc -l | tr -d '[:space:]') >= $header_lines )) #=> --exit 0
 EOF
 
-test: "Header should have at least a \"Purpose\" and one (1) reference \"References.Ref1\""
-cat <<EOF | clitest -
+test-block: "Header should have at least a \"Purpose\" and one (1) reference \"References.Ref1\"" <<EOF
 $ sed -n '$header_pattern' $script_in_test | cut -c 3- | yq r - Purpose #=> --lines 1
 $ sed -n '$header_pattern' $script_in_test | cut -c 3- | yq r - References.Ref1 #=> --lines 1
 EOF

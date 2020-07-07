@@ -1,4 +1,5 @@
 = Utilities
+{localdatetime}
 :icons: font
 :nofooter:
 
@@ -13,6 +14,8 @@ These are some utilities that you may use or see some of then in use in this pro
 .. https://incoherency.co.uk/base58/
 . {ExplainShell}. Sample:
 .. https://explainshell.com/explain?cmd=git+log+--all+-M+-C+--numstat+--date%3Dshort+--pretty%3Dformat:%27--%25h--%25ad--%25an%27+--no-renames
-. {clitest}.
+. [[clitest]] {clitest}. Usage samples:
+.. https://github.com/aureliojargas/clitest/tree/master/examples
+.. https://github.com/funcoeszz/funcoeszz/tree/master/testador
 . {bats}.
 .. https://github.com/sstephenson/bats/wiki/Projects-Using-Bats

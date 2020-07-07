@@ -1,0 +1,33 @@
+= Why this project?
+{localdatetime}
+:icons: font
+:nofooter:
+:idprefix:
+:idseparator: -
+:sectlinks:
+
+:basedir: ..
+include::../asciidoc-una/uris.adoc[]
+include::../asciidoc-una/attributes.adoc[]
+
+The root reason for existence for this project is
+*to help programmers to improve their skills in
+three (3) main areas*:
+
+. <<create-shell-scripts-with-bash>>.
+. <<use-command-line-tools>>.
+. <<write-better-documentation>>.
+
+This project consolidates all of these skills by creating a
+*final goal: produce labs that demonstrate
+{Git}, {GitHub}, or {GitLab} features or solutions*.
+
+:leveloffset: +1
+
+include::_includes/create-shell-scripts-with-bash.adoc[]
+
+include::_includes/use-command-line-tools.adoc[]
+
+include::_includes/write-better-documetation.adoc[]
+
+:leveloffset: -1

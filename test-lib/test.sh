@@ -20,9 +20,13 @@ scripts_dir=..
 script_in_test=`caller | cut -f 2`
 script_in_test=$scripts_dir/${script_in_test#*test/}
 
-test_counter=0
+test_block_counter=0
 # A Bash function could contain ":" in its name (See Ref3)
-test:() { echo "Test #$((++test_counter)) in ${script_in_test##*/}: $@"; }
+test-block:() {
+  local script=$
+  echo "Test block #$((++test_block_counter)) in ${script_in_test#*/}: $@"
+  clitest -
+}
 
 # Set current dir to test directory
 cd "$BASE_DIR"/test

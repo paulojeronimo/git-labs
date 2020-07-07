@@ -1,0 +1,11 @@
+= Create shell scripts with Bash
+
+{Bash} is one of the best {shell-script} languages of the world.
+
+This project is entirely written in Bash and we'll help you
+to develop better solutions by using it.
+
+Many scripts developed here have a set of references embedded
+in it to give you more information about some solutions.
+
+<<tdd#,We try to apply better practices like TDD>>.

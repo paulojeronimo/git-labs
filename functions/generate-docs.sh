@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# Purpose: Generates the README.adoc.
+# Purpose: Generates README.adoc and other docs.
 # References:
 #   Ref1: https://stackoverflow.com/a/46083970[Insert newline (\n) using sed^]
 #
-generate-README() {
+generate-docs() {
+  local generate_adoc_includes=$1; shift
   local adoc_args=$@
   cp functions/README.adoc README.adoc
   cat >> README.adoc <<EOF
@@ -22,6 +23,9 @@ EOF
   if $(which asciidoctor &> /dev/null); then
     asciidoctor README.adoc $adoc_args
     generate-index-for docs
+    if $generate_adoc_includes; then
+      ./test/all.sh | tee tmp/test-all.txt
+    fi
     for f in docs/*.adoc; do asciidoctor $f; done
   fi
 }

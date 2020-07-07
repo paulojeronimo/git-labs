@@ -1,5 +1,6 @@
 [[contribution-guidelines]]
 = Contribution guidelines
+{localdatetime}
 :icons: font
 :nofooter:
 

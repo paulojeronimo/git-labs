@@ -1,7 +1,9 @@
 :uri-paulojeronimo-git-labs: https://github.com/paulojeronimo/git-labs
 :uri-paulojeronimo-git-labs-mirror: https://gitlab.com/paulojeronimo/git-labs
+:uri-gitlab: https://gitlab.com
 :uri-gitlab-pages: https://pages.gitlab.com
 :uri-gitlab-fork-a-repo: https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork
+:uri-github: https://github.com
 :uri-github-pages: https://pages.github.com
 :uri-github-creating-a-pull-request-from-a-fork: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
 :uri-github-fork-a-repo: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
@@ -9,6 +11,7 @@
 :uri-what-is-asciidoc: https://asciidoctor.org/docs/what-is-asciidoc/
 :uri-base58: https://learnmeabitcoin.com/guide/base58
 :uri-git: https://git-scm.com/
+:uri-shell-script: https://en.wikipedia.org/wiki/Shell_script
 :uri-bash: https://www.gnu.org/software/bash/
 :uri-explainshell: https://www.explainshell.com/
 :uri-explainshell-github: https://github.com/idank/explainshell
@@ -19,3 +22,8 @@
 :uri-rsync: https://en.wikipedia.org/wiki/Rsync
 :uri-clitest: https://github.com/aureliojargas/clitest
 :uri-bats: https://github.com/sstephenson/bats
+:uri-jq: https://stedolan.github.io/jq/
+:uri-yq: https://mikefarah.gitbook.io/yq/
+:uri-curl: https://curl.haxx.se/
+:uri-wget: https://www.gnu.org/software/wget/
+:uri-tdd: https://en.wikipedia.org/wiki/Test-driven_development

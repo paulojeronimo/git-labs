@@ -1,0 +1,22 @@
+= TDD
+{localdatetime}
+:icons: font
+:nofooter:
+
+:basedir: ..
+include::../asciidoc-una/uris.adoc[]
+include::../asciidoc-una/attributes.adoc[]
+
+We try to use {uri-tdd}[Test Driven Developing (TDD)^] to produce our code.
+
+One of the best ways to do this in this project is through <<utilities#clitest,clitest>>.
+
+With one simple command line you can execute all currently developed:
+
+  $ ./test/all.sh
+
+The command above will produce the following output:
+
+----
+include::{basedir}/tmp/test-all.txt[]
+----

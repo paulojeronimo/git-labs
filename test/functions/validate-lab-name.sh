@@ -8,10 +8,9 @@ BASE_DIR=`cd "$(dirname "$0")"/../..; pwd`
 source "$BASE_DIR"/test-lib/test.sh
 
 # Do the tests ...
-test: "$script_in_test should return a valid lab name"
-cat <<EOF | clitest -
-$ test-function.sh $script_in_test $scripts_dir lab111.sh
+test-block: "Function should return a valid lab name" <<EOF
+$ function-test.sh $script_in_test $scripts_dir lab111.sh
 lab111.sh
-$ test-function.sh $script_in_test $scripts_dir 111
+$ function-test.sh $script_in_test $scripts_dir 111
 lab111.sh
 EOF

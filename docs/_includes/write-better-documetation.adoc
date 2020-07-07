@@ -1,0 +1,15 @@
+= Write better documentation
+
+This project will help you to document things better!
+
+We think that *documents and source code needs to be improved at the same time*.
+So, we use {uri-what-is-asciidoc}[the asciidoc format^] to evolve our documents!
+
+We write documents even before we developed our code.
+And when we develop the code,
+we either evolve our documents at the same time
+or we do it right afterward to keep them from lagging.
+
+In fact, we use documents to guide us in producing a code
+or we use code to generate documents.
+We do not believe that code and document should be treated differently.
