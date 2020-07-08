@@ -3,6 +3,7 @@
 # References:
 #   Ref1: https://stackoverflow.com/a/46083970[Insert newline (\n) using sed^]
 #   Ref2: https://stackoverflow.com/questions/1494178/how-to-define-hash-tables-in-bash
+#   Ref3: https://stackoverflow.com/questions/1967967/git-command-to-display-head-commit-id/1968001
 #
 
 generate-included-files() {
@@ -18,9 +19,18 @@ generate-included-files() {
   done
 }
 
+stamp-the-commit-id() {
+  mkdir -p tmp
+  # Ref3
+  git rev-parse --short HEAD > tmp/SOURCE.id
+  local commit_id=$(cat tmp/SOURCE.id)
+  sed "s/COMMIT_ID/$commit_id/g" README.adoc | sponge README.adoc
+}
+
 generate-docs() {
   local adoc_args=$@
   cp functions/README.adoc README.adoc
+  stamp-the-commit-id
   cat >> README.adoc <<EOF
 
 [%reversed]

@@ -8,7 +8,7 @@
 include::../asciidoc-una/uris.adoc[]
 include::../asciidoc-una/attributes.adoc[]
 
-. Fork the repo {uri-paulojeronimo-git-labs}. {uri-github-fork-a-repo}[Read about forking^], if necessary.
+. Fork {uri-paulojeronimo-git-labs}[this repo^]. {uri-github-fork-a-repo}[Read about forking^], if necessary.
 . Name your lab as "lab<3 digits in <<utilities#base58,Base58>>".sh.
 .. The first digit will identify you (the contributor).
 .. Increment the last two digits as you add more labs.
